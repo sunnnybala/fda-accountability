@@ -1,0 +1,8 @@
+# Private working notes; never publish
+drafts/
+.gstack/
+
+__pycache__/
+*.pyc
+.venv/
+.DS_Store

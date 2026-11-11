@@ -1,0 +1,269 @@
+{
+  "about": "Hand-checked inputs for the human cost of each wait. For each drug: the median survival with and without it in a randomised trial, and the number of people in the US who become eligible each year, each with a source and a quote. The build multiplies these by the wait. A drug is left out when its trial reached no median, when the survival gain was not statistically significant, or when no sourced patient count could be found.",
+  "checked": "2026-11-11",
+  "left_out": {
+    "loqtorzi": "Median survival was not reached in the drug group, so there is no gain in months to multiply.",
+    "lazcluze": "Median survival was not reached in the drug group, so there is no gain in months to multiply.",
+    "sarclisa": "The survival difference (24.6 vs 17.7 months) was not statistically significant.",
+    "tevimbra": "No sourced US patient count; the best estimate rests on an unsourced assumption and probably runs high.",
+    "itovebi": "No sourced US patient count; the best estimate is order-of-magnitude only."
+  },
+  "drugs": {
+    "tukysa": {
+      "trial": "HER2CLIMB",
+      "os_drug_months": 21.9,
+      "os_control_months": 17.4,
+      "os_source": {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31825569/",
+        "quote": "the median overall survival was 21.9 months and 17.4 months, respectively."
+      },
+      "us_eligible_per_year": 6400,
+      "eligible_basis": "This is the number of US patients with third-line HER2-positive metastatic breast cancer, from a competitor's annual report. Tukysa's label starts one line of treatment earlier, so the true number is probably higher.",
+      "eligible_sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1401667/000156459021009840/pbyi-10k_20201231.htm",
+          "quote": "We also believe that there are approximately 6,400 patients in the United States with third-line and 4,700 patients in the United States with fourth line HER2-positive metastatic breast cancer."
+        }
+      ],
+      "note": ""
+    },
+    "trodelvy": {
+      "trial": "ASCENT",
+      "os_drug_months": 11.8,
+      "os_control_months": 6.9,
+      "os_source": {
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/761115s005s013lbl.pdf",
+        "quote": "Median OS in months (95% CI) 11.8 (10.5, 13.8) 6.9 (5.9, 7.6)"
+      },
+      "us_eligible_per_year": 1645,
+      "eligible_basis": "A rough estimate that probably runs low: 42,170 US breast cancer deaths a year, taken as the number of new metastatic cases, times the 15% that are triple-negative, times the 26% of treated patients who reach a third line of treatment.",
+      "eligible_sources": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213411Orig1s000MultidisciplineR.pdf",
+          "quote": "with over 276,000 new cases and estimated 42,170 deaths in the United States in 2020"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11957248/",
+          "quote": "Among 2004 patients who received 1L treatment, 51% ( n = 1030) and 26% ( n = 524) subsequently received a 2L and 3L treatment, respectively"
+        }
+      ],
+      "note": "The first approval rested on a smaller trial without a comparison group. The survival figures come from the randomised trial that confirmed it a year later."
+    },
+    "qinlock": {
+      "trial": "INVICTUS",
+      "os_drug_months": 15.1,
+      "os_control_months": 6.6,
+      "os_source": {
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/213973s000lbl.pdf",
+        "quote": "Median OS (months) (95% CI) 15.1 (12.3, 15.1) 6.6 (4.1, 11.6)"
+      },
+      "us_eligible_per_year": 1150,
+      "eligible_basis": "This is the midpoint of the manufacturer's estimate of 1,000 to 1,300 new fourth-line patients a year, from US insurance claims.",
+      "eligible_sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1654151/000165415121000003/dcph-20201231.htm",
+          "quote": "we estimate that the annual new treatment-eligible population of fourth-line GIST patients in the U.S. is approximately 1,000 to 1,300."
+        }
+      ],
+      "note": "The trial's rules did not allow a formal significance test on survival. Two thirds of the patients on placebo switched to the drug when their cancer grew, which narrows the measured gap."
+    },
+    "fruzaqla": {
+      "trial": "FRESCO-2",
+      "os_drug_months": 7.4,
+      "os_control_months": 4.8,
+      "os_source": {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37331369/",
+        "quote": "Median overall survival was 7·4 months (95% CI 6·7-8·2) in the fruquintinib group versus 4·8 months (4·0-5·8) in the placebo group"
+      },
+      "us_eligible_per_year": 14600,
+      "eligible_basis": "This is the manufacturer's estimate of US patients with metastatic colorectal cancer in their third or later line of treatment.",
+      "eligible_sources": [
+        {
+          "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0407/2025040700683.pdf",
+          "quote": "Takeda estimated 14,600 3L & 4L+ metastatic CRC patients in the U.S."
+        }
+      ],
+      "note": ""
+    },
+    "vanflyta": {
+      "trial": "QuANTUM-First",
+      "os_drug_months": 31.9,
+      "os_control_months": 15.1,
+      "os_source": {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37116523/",
+        "quote": "median overall survival was 31·9 months (95% CI 21·0-not estimable) for quizartinib versus 15·1 months (13·2-26·2) for placebo"
+      },
+      "us_eligible_per_year": 2850,
+      "eligible_basis": "Worked out from 20,380 new US cases of acute myeloid leukemia a year, times the 25% with the FLT3-ITD mutation, times the 56% who receive the intensive chemotherapy the drug is given with.",
+      "eligible_sources": [
+        {
+          "url": "https://www.daiichisankyo.com/files/news/pressrelease/pdf/202307/20230720_E.pdf",
+          "quote": "an estimated 20,380 new cases will be diagnosed in the U.S. in 2023."
+        },
+        {
+          "url": "https://www.daiichisankyo.com/files/news/pressrelease/pdf/202311/20231109_E.pdf",
+          "quote": "FLT3-ITD mutations occur in about 25% of all AML cases, with frequency reported as high as 30%."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5998918/",
+          "quote": "Patients received a multiagent (74.9%, n = 34 576), single-agent (21.8%, n = 10 086), or unspecified (3.3%, n = 1505) chemotherapy regimen."
+        }
+      ],
+      "note": ""
+    },
+    "vyloy": {
+      "trial": "SPOTLIGHT",
+      "os_drug_months": 18.2,
+      "os_control_months": 15.5,
+      "os_source": {
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/761365s000lbl.pdf",
+        "quote": "Median in months (95% CI) 18.2 (16.4, 22.9) 15.5 (13.5, 16.5)"
+      },
+      "us_eligible_per_year": 2900,
+      "eligible_basis": "Worked out from 26,890 new US stomach and gastroesophageal junction cancers a year, times the 35% already spread at diagnosis, times the 80% that are HER2-negative, times the 38% that carry the claudin 18.2 marker.",
+      "eligible_sources": [
+        {
+          "url": "https://newsroom.astellas.com/2024-10-21-Astellas-VYLOYTM-zolbetuximab-clzb-Approved-by-U-S-FDA-for-Treatment-of-Advanced-Gastric-and-GEJ-Cancer",
+          "quote": "In 2024, it is estimated that 26,890 people will be diagnosed with G/GEJ cancer and 10,880 will die from the disease in the U.S."
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/761365Orig1s000MultidisciplineR.pdf",
+          "quote": "Approximately 35% of patients diagnosed with GC are found to have metastatic disease."
+        }
+      ],
+      "note": "A second trial, GLOW, found a similar gain: 14.4 months against 12.2."
+    },
+    "imdelltra": {
+      "trial": "DeLLphi-304",
+      "os_drug_months": 13.6,
+      "os_control_months": 8.3,
+      "os_source": {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40454646/",
+        "quote": "Treatment with tarlatamab resulted in significantly longer overall survival than chemotherapy (median, 13.6 months [95% confidence interval {CI}, 11.1 to not reached] vs. 8.3 months [95% CI, 7.0 to 10.2]"
+      },
+      "us_eligible_per_year": 8900,
+      "eligible_basis": "Worked out from 234,580 new US lung cancers a year, times the 14% that are small cell, times the 70% found at the extensive stage, times the 38.6% of those patients who go on to a second line of treatment.",
+      "eligible_sources": [
+        {
+          "url": "https://www.cancer.org/content/dam/cancer-org/research/cancer-facts-and-statistics/annual-cancer-facts-and-figures/2024/2024-cancer-facts-and-figures-acs.pdf",
+          "quote": "In 2024, an estimated 234,580 new cases of lung cancer will be diagnosed in the US"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41222788/",
+          "quote": "992 (38.6%), 344 (13.4%), and 114 (4.4%) received ≥ 1, ≥ 2, and ≥ 3 subsequent treatment lines, respectively."
+        }
+      ],
+      "note": "The first approval rested on a smaller trial without a comparison group. The survival figures come from the randomised trial that confirmed it in 2025."
+    },
+    "pluvicto": {
+      "trial": "VISION",
+      "os_drug_months": 15.3,
+      "os_control_months": 11.3,
+      "os_source": {
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/215833s000lbl.pdf",
+        "quote": "Median, months (95% CI) 15.3 (14.2, 16.9) 11.3 (9.8, 13.5)"
+      },
+      "us_eligible_per_year": 11000,
+      "eligible_basis": "This is the number of US patients who actually started or completed the treatment in 2024, so it is a floor. The manufacturer sizes the wider group it was tested in at 27,000 new patients a year.",
+      "eligible_sources": [
+        {
+          "url": "https://jnm.snmjournals.org/content/66/3/333.full.pdf",
+          "quote": "Approximately 11,000 patients started or completed Pluvicto treatment in 2024."
+        },
+        {
+          "url": "https://www.novartis.com/sites/novartis_com/files/2023-novartis-esmo-call-presentation.pdf",
+          "quote": "2L+ US: 27k"
+        }
+      ],
+      "note": ""
+    },
+    "kimmtrak": {
+      "trial": "IMCgp100-202",
+      "os_drug_months": 21.7,
+      "os_control_months": 16.0,
+      "os_source": {
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/761228s000lbl.pdf",
+        "quote": "Median in months (95% CI) 21.7 (18.6, 28.6) 16 (9.7, 18.4)"
+      },
+      "us_eligible_per_year": 380,
+      "eligible_basis": "Worked out from 5.1 cases of uveal melanoma per million people a year across 333 million people, times the 50% whose cancer spreads, times the 45% who carry the HLA-A*02:01 marker the drug needs.",
+      "eligible_sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21704381/",
+          "quote": "The mean age-adjusted incidence of uveal melanoma in the United States was 5.1 per million (95% CI, 4.8-5.3)."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9514125/",
+          "quote": "The presence of human leukocyte antigen (HLA)-A*02:01 is seen in approximately 45% of individuals with uveal melanoma in the United States and Europe"
+        }
+      ],
+      "note": ""
+    },
+    "imjudo": {
+      "trial": "HIMALAYA",
+      "os_drug_months": 16.4,
+      "os_control_months": 13.8,
+      "os_source": {
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/761289Orig1s000Correctedlbl.pdf",
+        "quote": "Median OS (months) 16.4 13.8"
+      },
+      "us_eligible_per_year": 4100,
+      "eligible_basis": "Worked out from 36,000 new US liver cancers a year, times the 75% that are hepatocellular carcinoma, times the 15% of those patients who receive drug treatment within a year. Counting everyone diagnosed at an advanced stage instead would give about 13,500.",
+      "eligible_sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/901832/000165495422014037/a8410d.htm",
+          "quote": "approximately 36,000 new diagnoses each year. ... About 75% of all primary liver cancers in adults are HCC."
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39530255/",
+          "quote": "the use of systemic therapy slightly decreased (2014-2017, 17.0%; 2018-2019, 15.2%; p = .01)."
+        }
+      ],
+      "note": "The comparison was against sorafenib, an existing drug, not against no treatment."
+    },
+    "elahere": {
+      "trial": "MIRASOL",
+      "os_drug_months": 16.5,
+      "os_control_months": 12.7,
+      "os_source": {
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/761310Origs005lbl.pdf",
+        "quote": "Median, months (95% CI) 16.5 (14.5, 24.6) 12.7 (10.9, 14.4)"
+      },
+      "us_eligible_per_year": 5200,
+      "eligible_basis": "This is the manufacturer's estimate of US patients covered by the first approval.",
+      "eligible_sources": [
+        {
+          "url": "https://xtalks.com/immunogens-elahere-gets-fda-approval-for-platinum-resistant-ovarian-cancer-3289/",
+          "quote": "ImmunoGen said this allows the treatment to be available to about 5,200 patients in the US."
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/855654/000155837023000119/imgn-20230109xex99d1.htm",
+          "quote": "There are 19,500 drug - treatable 2L - 4L platinum - resistant ovarian cancer patients in the U.S. each year (DRG)."
+        }
+      ],
+      "note": "The first approval rested on a smaller trial without a comparison group. The survival figures come from the randomised trial that confirmed it in 2024."
+    },
+    "tivdak": {
+      "trial": "innovaTV 301",
+      "os_drug_months": 11.5,
+      "os_control_months": 9.5,
+      "os_source": {
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/761208s007lbl.pdf",
+        "quote": "Median in months (95% CI) 11.5 (9.8, 14.9) 9.5 (7.9, 10.7)"
+      },
+      "us_eligible_per_year": 2200,
+      "eligible_basis": "A rough estimate: 4,280 US deaths from cervical cancer a year, taken as the number of women starting treatment for cancer that has returned or spread, times the 51% who go on to a second treatment.",
+      "eligible_sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1434265/000155837023001716/gmab-20221231x20f.htm",
+          "quote": "SEER estimated that 14,100 women would be diagnosed with cervical cancer in the United States in 2022, and that 4,280 would die from cervical cancer."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9797608/",
+          "quote": "During follow-up, over half (51.0 %) of the 1L-treated r/mCC patients received 2L treatment."
+        }
+      ],
+      "note": "The first approval rested on a smaller trial without a comparison group. The survival figures come from the randomised trial that confirmed it in 2024."
+    }
+  }
+}

@@ -1,0 +1,4142 @@
+{
+ "source": "https://api.fda.gov/transparency/crl.json",
+ "downloaded": "2026-11-11",
+ "letters": [
+  {
+   "application_number": [
+    "NDA 210649"
+   ],
+   "letter_date": "09/12/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210649_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 212156"
+   ],
+   "letter_date": "05/18/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "212156_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 213593"
+   ],
+   "letter_date": "01/28/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "213593_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 215974"
+   ],
+   "letter_date": "02/28/2022",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "215973,215974Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761393"
+   ],
+   "letter_date": "03/11/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761393_20250311.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210136"
+   ],
+   "letter_date": "12/15/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210136_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 203202"
+   ],
+   "letter_date": "03/28/2012",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "CRL_NDA203202_20120328.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 211566"
+   ],
+   "letter_date": "03/03/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "211566_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 208419"
+   ],
+   "letter_date": "06/26/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "208419_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 212854"
+   ],
+   "letter_date": "11/22/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "212854_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210895"
+   ],
+   "letter_date": "08/24/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210895_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 215320"
+   ],
+   "letter_date": "06/30/2022",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "215320_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 211413"
+   ],
+   "letter_date": "12/26/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "211413_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761088"
+   ],
+   "letter_date": "02/28/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761088_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 215179"
+   ],
+   "letter_date": "04/14/2022",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "215179_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BL 125764"
+   ],
+   "letter_date": "01/20/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "CRL_BLA125764_20230120.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761133"
+   ],
+   "letter_date": "12/17/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761133_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761366"
+   ],
+   "letter_date": "06/26/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761366_20240626.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761297"
+   ],
+   "letter_date": "12/15/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761297_2025_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218317"
+   ],
+   "letter_date": "10/21/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218317_20251021.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761435"
+   ],
+   "letter_date": "11/24/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761435_20251124.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 208042"
+   ],
+   "letter_date": "09/30/2016",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "208042_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218345"
+   ],
+   "letter_date": "07/01/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218345_20240701.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 208742"
+   ],
+   "letter_date": "07/21/2016",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "208742_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218408"
+   ],
+   "letter_date": "03/27/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218408_20240327.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 209354"
+   ],
+   "letter_date": "06/15/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "209354_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 022231"
+   ],
+   "letter_date": "09/11/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "022231Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 209988"
+   ],
+   "letter_date": "12/03/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "209988_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 206968"
+   ],
+   "letter_date": "02/27/2015",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "206968_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210649"
+   ],
+   "letter_date": "03/13/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210649_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 209128"
+   ],
+   "letter_date": "10/11/2017",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "209128Orig1s000OtherActionLtr.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 213645"
+   ],
+   "letter_date": "04/29/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "213645_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210730"
+   ],
+   "letter_date": "11/02/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210730_2020_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 219122"
+   ],
+   "letter_date": "11/04/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "219122Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 212782"
+   ],
+   "letter_date": "03/10/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "212782Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761045"
+   ],
+   "letter_date": "06/24/2016",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761045_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 212888"
+   ],
+   "letter_date": "12/19/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "212887Orig1s000,212888Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761211"
+   ],
+   "letter_date": "08/06/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761211_20250806.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761126"
+   ],
+   "letter_date": "05/20/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761126_2025_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761266"
+   ],
+   "letter_date": "01/03/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761266_20250103.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 216987"
+   ],
+   "letter_date": "05/10/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA216987_20240510.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761308"
+   ],
+   "letter_date": "05/16/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761308_20240516.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 217338"
+   ],
+   "letter_date": "07/26/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA217338_20240726.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218317"
+   ],
+   "letter_date": "05/24/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218317_20240524.pdf"
+  },
+  {
+   "application_number": null,
+   "letter_date": "02/27/2026",
+   "letter_type": null,
+   "approval_status": "Unapproved",
+   "file_name": "Under Review for Release"
+  },
+  {
+   "application_number": [
+    "NDA 218571"
+   ],
+   "letter_date": "03/27/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218571_20250327.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 022517"
+   ],
+   "letter_date": "01/30/2013",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "022517Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210282"
+   ],
+   "letter_date": "03/19/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210282_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 205394"
+   ],
+   "letter_date": "01/31/2014",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "205394_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 213378/Original 1",
+    "NDA 213378/Original 2"
+   ],
+   "letter_date": "11/13/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "213378Orig1Orig2s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 208564"
+   ],
+   "letter_date": "05/05/2017",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "208564_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 214628"
+   ],
+   "letter_date": "06/14/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "214628_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 208574"
+   ],
+   "letter_date": "06/01/2016",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "208574Orig1s000,Orig2s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761215/Original 2",
+    "BLA 761215"
+   ],
+   "letter_date": "12/17/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761215Orig2s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 211964"
+   ],
+   "letter_date": "11/06/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "211964_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761147"
+   ],
+   "letter_date": "04/05/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761147_20240405.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 212905"
+   ],
+   "letter_date": "09/16/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "212905_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761290"
+   ],
+   "letter_date": "01/31/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761290_20250131.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 215040"
+   ],
+   "letter_date": "05/05/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "215040_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761377"
+   ],
+   "letter_date": "03/26/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761377_20250326.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 217347"
+   ],
+   "letter_date": "09/22/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "217347_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761451"
+   ],
+   "letter_date": "10/10/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761451_20251010.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761151"
+   ],
+   "letter_date": "05/12/2022",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761151_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 214610"
+   ],
+   "letter_date": "02/27/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA214610_20260227.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761248"
+   ],
+   "letter_date": "01/18/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761248_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218923"
+   ],
+   "letter_date": "10/10/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218923_20241010.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761343"
+   ],
+   "letter_date": "10/11/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761343_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 214835"
+   ],
+   "letter_date": "09/24/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "Pages from 214835Orig1s000_ORIGINAL_APPROVAL_PACKAGE.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 216195"
+   ],
+   "letter_date": "07/25/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA216195_20240725.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 216442"
+   ],
+   "letter_date": "04/02/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA216442_20250402.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 219195"
+   ],
+   "letter_date": "11/27/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA219195_20241127.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 022075"
+   ],
+   "letter_date": "02/25/2008",
+   "letter_type": null,
+   "approval_status": "Approved",
+   "file_name": "022075Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 022561"
+   ],
+   "letter_date": "02/28/2011",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "022561Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 205920"
+   ],
+   "letter_date": "05/22/2014",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "205920_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 208647"
+   ],
+   "letter_date": "06/22/2016",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "208647_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 208742"
+   ],
+   "letter_date": "07/10/2017",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "208742_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 206089"
+   ],
+   "letter_date": "11/03/2014",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "206089_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 209510"
+   ],
+   "letter_date": "10/05/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "209510_2020_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 214697"
+   ],
+   "letter_date": "09/19/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "214697_2025_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761312"
+   ],
+   "letter_date": "07/28/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761312Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BL 125827"
+   ],
+   "letter_date": "07/21/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA125827_20250721.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761424"
+   ],
+   "letter_date": "03/13/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761424_20250313.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 215644"
+   ],
+   "letter_date": "06/25/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA215644_20250625.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 202158"
+   ],
+   "letter_date": "11/04/2013",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "202158_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 204311"
+   ],
+   "letter_date": "10/23/2014",
+   "letter_type": "TENTATIVE APPROVAL",
+   "approval_status": "Approved",
+   "file_name": "204311_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 204417"
+   ],
+   "letter_date": "03/22/2017",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "204417Orig1s000OtherActionLtr.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 206610"
+   ],
+   "letter_date": "12/06/2017",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "206610_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 206976"
+   ],
+   "letter_date": "03/24/2017",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "206976_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 207962"
+   ],
+   "letter_date": "05/10/2016",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "207962_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 208313"
+   ],
+   "letter_date": "11/24/2015",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "208313_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 209191"
+   ],
+   "letter_date": "02/22/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "209191_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 213260"
+   ],
+   "letter_date": "10/16/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "213260_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 213586"
+   ],
+   "letter_date": "04/15/2022",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "213586_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 215352"
+   ],
+   "letter_date": "10/22/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "215352_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761183"
+   ],
+   "letter_date": "07/02/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761183_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 022377"
+   ],
+   "letter_date": "05/15/2009",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "CRL_NDA022377_20090515.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 208082"
+   ],
+   "letter_date": "05/27/2016",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "CRL_NDA208082_20160527.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 217644"
+   ],
+   "letter_date": "06/04/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA217644_20260604_Redacted.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218679"
+   ],
+   "letter_date": "08/27/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218679_20250827.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 022517"
+   ],
+   "letter_date": "01/30/2015",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "022517Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 205054"
+   ],
+   "letter_date": "05/29/2015",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "205054Orig1s000OtherActionLtr.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 205394"
+   ],
+   "letter_date": "03/28/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "205394_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 208574"
+   ],
+   "letter_date": "06/02/2017",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "208574Orig1s000,Orig2s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 212905"
+   ],
+   "letter_date": "05/23/2022",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "212905_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 214410/Original 2",
+    "NDA 210854/S-05",
+    "NDA 210854/S-09"
+   ],
+   "letter_date": "11/23/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "214410Orig2s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761299"
+   ],
+   "letter_date": "12/20/2022",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761299_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761303/Original 1"
+   ],
+   "letter_date": "03/22/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761303Original1_20240322.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761311"
+   ],
+   "letter_date": "06/29/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761311_20260629_Redacted.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761326"
+   ],
+   "letter_date": "07/10/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761326_20240710.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 215291"
+   ],
+   "letter_date": "01/17/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA215291_20240117.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 216586"
+   ],
+   "letter_date": "07/09/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA216586_20260709_Redacted.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 022517"
+   ],
+   "letter_date": "04/22/2010",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "022517Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 200655"
+   ],
+   "letter_date": "09/15/2016",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "200655_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 205920"
+   ],
+   "letter_date": "12/23/2016",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "205920_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 204017"
+   ],
+   "letter_date": "07/17/2013",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "204017_2020_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 206966"
+   ],
+   "letter_date": "08/30/2016",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "206966_2020_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 021164"
+   ],
+   "letter_date": "11/02/2007",
+   "letter_type": null,
+   "approval_status": "Approved",
+   "file_name": "021164Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 212905"
+   ],
+   "letter_date": "07/13/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "212905_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 125522"
+   ],
+   "letter_date": "08/27/2015",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "125522Orig2s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 213953"
+   ],
+   "letter_date": "10/22/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "213953_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 022231"
+   ],
+   "letter_date": "02/18/2022",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "022231Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 214439"
+   ],
+   "letter_date": "04/22/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "214439_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210875"
+   ],
+   "letter_date": "01/29/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210875_2020_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 215973"
+   ],
+   "letter_date": "02/28/2022",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "215973,215974Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210933"
+   ],
+   "letter_date": "08/07/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210933_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761115"
+   ],
+   "letter_date": "01/17/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761115_2020_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 211988"
+   ],
+   "letter_date": "06/26/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "211988_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761219"
+   ],
+   "letter_date": "11/23/2022",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761219_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 208276"
+   ],
+   "letter_date": "06/02/2017",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "208276_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761338/Original 2",
+    "BLA 761338"
+   ],
+   "letter_date": "12/17/2024",
+   "letter_type": "PROVISIONAL DETERMINATION",
+   "approval_status": "Approved",
+   "file_name": "761338Orig1Orig2s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 212937"
+   ],
+   "letter_date": "11/26/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "212937_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761356"
+   ],
+   "letter_date": "04/12/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761356_20240412.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 215344"
+   ],
+   "letter_date": "06/06/2022",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "215344_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 206185"
+   ],
+   "letter_date": "07/30/2015",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "206185_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210063"
+   ],
+   "letter_date": "10/26/2017",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210063_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761376"
+   ],
+   "letter_date": "10/16/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761376_20251016.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761240"
+   ],
+   "letter_date": "04/29/2022",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761240_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761433"
+   ],
+   "letter_date": "12/13/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761433_20241213.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 212854"
+   ],
+   "letter_date": "11/13/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "212854_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210136"
+   ],
+   "letter_date": "12/01/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210136_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761279"
+   ],
+   "letter_date": "03/30/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761279_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218592"
+   ],
+   "letter_date": "04/25/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218592_20250425.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 214952"
+   ],
+   "letter_date": "08/05/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "214952_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210852"
+   ],
+   "letter_date": "04/18/2022",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210852_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761385"
+   ],
+   "letter_date": "07/30/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761385_20250730.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218607"
+   ],
+   "letter_date": "06/29/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218607_20260629.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761166"
+   ],
+   "letter_date": "03/12/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761166_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 211566"
+   ],
+   "letter_date": "09/02/2021",
+   "letter_type": "TENTATIVE APPROVAL",
+   "approval_status": "Approved",
+   "file_name": "211566_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 219398"
+   ],
+   "letter_date": "01/28/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA219398_20260128.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218698"
+   ],
+   "letter_date": "06/12/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218698_20240612.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761365"
+   ],
+   "letter_date": "01/04/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761365_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 219357"
+   ],
+   "letter_date": "12/23/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA219357_20241223.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761367"
+   ],
+   "letter_date": "10/07/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761367Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 212849"
+   ],
+   "letter_date": "02/18/2022",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "212849_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761308"
+   ],
+   "letter_date": "07/09/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761308_20260709_Redacted.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 220049"
+   ],
+   "letter_date": "08/18/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA220049_20250818.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 215244"
+   ],
+   "letter_date": "05/15/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA215244_20250515.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 213895"
+   ],
+   "letter_date": "03/20/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "213895_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 216586"
+   ],
+   "letter_date": "03/20/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA216586_20250320.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 215064"
+   ],
+   "letter_date": "02/26/2022",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "215064_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 217002"
+   ],
+   "letter_date": "02/26/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA217002_20240226.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 215559"
+   ],
+   "letter_date": "12/23/2022",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "215559_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218828"
+   ],
+   "letter_date": "12/19/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218828_20241219.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761066"
+   ],
+   "letter_date": "03/23/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761066_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 219112"
+   ],
+   "letter_date": "01/17/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA219112_20250117.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761357"
+   ],
+   "letter_date": "03/26/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761357_20240326.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 202408"
+   ],
+   "letter_date": "03/28/2019",
+   "letter_type": "RESCIND COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "202408_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 219107"
+   ],
+   "letter_date": "07/21/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA219107_20260721.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 206610"
+   ],
+   "letter_date": "02/27/2015",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "206610_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 204311"
+   ],
+   "letter_date": "01/13/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "204311_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 206968"
+   ],
+   "letter_date": "11/15/2016",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "206968_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 209388"
+   ],
+   "letter_date": "04/01/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "209388_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 204017"
+   ],
+   "letter_date": "02/13/2013",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "204017_2020_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 209511"
+   ],
+   "letter_date": "11/30/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "209511_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210735"
+   ],
+   "letter_date": "10/01/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210735_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210526"
+   ],
+   "letter_date": "07/25/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210526_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 208288"
+   ],
+   "letter_date": "05/06/2016",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "208288_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 215151"
+   ],
+   "letter_date": "02/07/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "215151_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 211950"
+   ],
+   "letter_date": "10/18/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "211950_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761225"
+   ],
+   "letter_date": "04/12/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761225_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 208352"
+   ],
+   "letter_date": "04/28/2016",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "208352_2020_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761306"
+   ],
+   "letter_date": "09/28/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761306_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 209471"
+   ],
+   "letter_date": "12/22/2017",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "209471_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BL 125743"
+   ],
+   "letter_date": "02/25/2022",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "CRL_BLA125743_20220225.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 211988"
+   ],
+   "letter_date": "04/30/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "211988_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218223"
+   ],
+   "letter_date": "03/08/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218223_20240308.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 211039"
+   ],
+   "letter_date": "07/19/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "211039_2020_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 219846"
+   ],
+   "letter_date": "10/23/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA219846_20251023.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 212501"
+   ],
+   "letter_date": "01/14/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "212501_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 204957"
+   ],
+   "letter_date": "04/24/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "204957_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 212782"
+   ],
+   "letter_date": "08/01/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "212782Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 209863"
+   ],
+   "letter_date": "10/20/2017",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "209863_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 212937"
+   ],
+   "letter_date": "08/10/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "212937_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210136"
+   ],
+   "letter_date": "01/19/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210136_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 212887"
+   ],
+   "letter_date": "12/19/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "212887Orig1s000,212888Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210852"
+   ],
+   "letter_date": "05/21/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210852_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761315"
+   ],
+   "letter_date": "04/24/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761315_2025_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 214860"
+   ],
+   "letter_date": "06/15/2022",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "214860_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 204408"
+   ],
+   "letter_date": "06/06/2013",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "212904Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 217225/S-001"
+   ],
+   "letter_date": "11/15/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "217225-s001_OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BL 125807"
+   ],
+   "letter_date": "04/16/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "CRL_BLA125807_20240416.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761303/Original 2"
+   ],
+   "letter_date": "03/22/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761303Original2_20240322.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761401"
+   ],
+   "letter_date": "04/10/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761401_20260410.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761458/Original 2",
+    "BLA 761458"
+   ],
+   "letter_date": "12/16/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761458_20251216.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761126"
+   ],
+   "letter_date": "02/14/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761126_2025_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 220045"
+   ],
+   "letter_date": "04/13/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA220045_20260413_Redacted.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761320"
+   ],
+   "letter_date": "12/30/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761320_20251230.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 022231"
+   ],
+   "letter_date": "11/04/2009",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "022231Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 215818"
+   ],
+   "letter_date": "02/27/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA215818_20260227.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 205394"
+   ],
+   "letter_date": "03/24/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "205394_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761215/Original 2",
+    "BLA 761215"
+   ],
+   "letter_date": "12/17/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "Pages from 761215Orig2s000.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 208574"
+   ],
+   "letter_date": "11/04/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "208574Orig1s000,Orig2s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761377"
+   ],
+   "letter_date": "06/27/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761377_20240627.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210821"
+   ],
+   "letter_date": "11/20/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210821_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 209531/S-016"
+   ],
+   "letter_date": "09/22/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA209531_20250922.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 211321"
+   ],
+   "letter_date": "03/29/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "211321_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210862"
+   ],
+   "letter_date": "11/04/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA210862_20251104.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761126"
+   ],
+   "letter_date": "09/24/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761126_2025_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 216987"
+   ],
+   "letter_date": "11/06/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA216987_20251106.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761299"
+   ],
+   "letter_date": "06/28/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761299_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218762"
+   ],
+   "letter_date": "12/05/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218762_20241205.pdf"
+  },
+  {
+   "application_number": [
+    "BL 125745"
+   ],
+   "letter_date": "01/09/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA125745_20260109.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 220707"
+   ],
+   "letter_date": "02/13/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA220707_20260213.pdf"
+  },
+  {
+   "application_number": [
+    "BL 125845"
+   ],
+   "letter_date": "07/07/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA125845_20250707.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 202049"
+   ],
+   "letter_date": "03/18/2013",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "202049_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 211241"
+   ],
+   "letter_date": "09/30/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA211241_20250930.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 206927/Original 1",
+    "NDA 206927"
+   ],
+   "letter_date": "12/17/2014",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "206927_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 217719"
+   ],
+   "letter_date": "03/10/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA217719_20250310.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210605"
+   ],
+   "letter_date": "05/17/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210605_2020_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218506"
+   ],
+   "letter_date": "06/13/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218506_20240613.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210864"
+   ],
+   "letter_date": "03/22/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210864_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 022335"
+   ],
+   "letter_date": "06/25/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "022335Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 212122"
+   ],
+   "letter_date": "09/30/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "212122_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 206089"
+   ],
+   "letter_date": "03/22/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "206089_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 214429"
+   ],
+   "letter_date": "11/12/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "214429_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 209510"
+   ],
+   "letter_date": "05/02/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "209510_2020_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 214952"
+   ],
+   "letter_date": "04/28/2022",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "214952_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210274"
+   ],
+   "letter_date": "06/15/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210274_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761463"
+   ],
+   "letter_date": "09/22/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761463_20250922.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 211150/Original 2",
+    "NDA 211150"
+   ],
+   "letter_date": "08/14/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "211150Orig2s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210168"
+   ],
+   "letter_date": "03/22/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA210168_20240322.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 215092"
+   ],
+   "letter_date": "11/09/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "215092_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 215818"
+   ],
+   "letter_date": "04/25/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA215818_20250425.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761082"
+   ],
+   "letter_date": "05/10/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761082_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 216195"
+   ],
+   "letter_date": "10/07/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA216195_20251007.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761180"
+   ],
+   "letter_date": "04/23/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761180_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761219"
+   ],
+   "letter_date": "11/24/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761219_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761338"
+   ],
+   "letter_date": "09/30/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761338Orig1Orig2s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 217724/Original 1",
+    "NDA 217724"
+   ],
+   "letter_date": "10/08/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA217724_20241008.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 204017"
+   ],
+   "letter_date": "12/21/2017",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "204017_2020_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218600"
+   ],
+   "letter_date": "06/10/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218600_20260610_Redacted.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761303"
+   ],
+   "letter_date": "07/30/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761303_20250730.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 219624"
+   ],
+   "letter_date": "12/23/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA219624_20251223.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761308"
+   ],
+   "letter_date": "03/20/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761308_20250320.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 219870"
+   ],
+   "letter_date": "01/30/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA219870_20260130.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210168"
+   ],
+   "letter_date": "06/20/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA210168_20250620.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 204417"
+   ],
+   "letter_date": "03/29/2013",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "204417Orig1s000OtherActionLtr.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 214610"
+   ],
+   "letter_date": "12/11/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA214610_20241211.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 206610"
+   ],
+   "letter_date": "03/10/2016",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "206610_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 216442"
+   ],
+   "letter_date": "03/16/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA216442_20260316.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 206968"
+   ],
+   "letter_date": "11/09/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "206968_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 220140"
+   ],
+   "letter_date": "03/05/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA220140_20260305.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 208288"
+   ],
+   "letter_date": "09/01/2017",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "208288_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 220544"
+   ],
+   "letter_date": "07/02/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA220544_20260702_Redacted.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 209191"
+   ],
+   "letter_date": "04/26/2017",
+   "letter_type": "TENTATIVE APPROVAL",
+   "approval_status": "Approved",
+   "file_name": "209191_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 202860"
+   ],
+   "letter_date": "05/18/2012",
+   "letter_type": "REFUSAL TO FILE",
+   "approval_status": "Approved",
+   "file_name": "202860_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 209471"
+   ],
+   "letter_date": "11/06/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "209471_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 021164"
+   ],
+   "letter_date": "06/23/2004",
+   "letter_type": null,
+   "approval_status": "Approved",
+   "file_name": "021164Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 212479"
+   ],
+   "letter_date": "12/22/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "212479Orig1,Orig2,Orig3,Orig4s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 208193"
+   ],
+   "letter_date": "01/11/2017",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "208193_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 213218"
+   ],
+   "letter_date": "01/10/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "213218_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 202408"
+   ],
+   "letter_date": "06/24/2016",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "202408_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 214581"
+   ],
+   "letter_date": "02/12/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "214581_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210274"
+   ],
+   "letter_date": "11/27/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210274_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761271"
+   ],
+   "letter_date": "12/09/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761271_20251209.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 208232"
+   ],
+   "letter_date": "04/15/2016",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "208232_2020_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 202971"
+   ],
+   "letter_date": "07/26/2012",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "CRL_NDA202971_20120726.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 216962"
+   ],
+   "letter_date": "03/17/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "216962_2025_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 202860"
+   ],
+   "letter_date": "06/28/2013",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "202860_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210735"
+   ],
+   "letter_date": "01/15/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210735_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 204803"
+   ],
+   "letter_date": "02/12/2014",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "204803_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761082"
+   ],
+   "letter_date": "06/11/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761082_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 208193"
+   ],
+   "letter_date": "06/25/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "208193_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 212501"
+   ],
+   "letter_date": "07/18/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "212501_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 209311"
+   ],
+   "letter_date": "07/28/2017",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "209311_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761084"
+   ],
+   "letter_date": "08/11/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761084_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210274"
+   ],
+   "letter_date": "08/25/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210274_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 214520"
+   ],
+   "letter_date": "08/04/2022",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "214520_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210852"
+   ],
+   "letter_date": "07/24/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210852_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761373/Original 2",
+    "BLA 761425/Original 2",
+    "BLA 761373",
+    "BLA 761425"
+   ],
+   "letter_date": "07/04/2024",
+   "letter_type": "CORRECTED PROVISIONAL DETERMINATION",
+   "approval_status": "Approved",
+   "file_name": "761373Orig2s000_761425Orig2s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 216962"
+   ],
+   "letter_date": "06/18/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "216962_2025_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 214927"
+   ],
+   "letter_date": "06/17/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "214927_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761082"
+   ],
+   "letter_date": "12/22/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761082_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 215455"
+   ],
+   "letter_date": "08/08/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA215455_20240808.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761085"
+   ],
+   "letter_date": "05/15/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761085_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 215212"
+   ],
+   "letter_date": "09/14/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "215212_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761164"
+   ],
+   "letter_date": "11/13/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761164_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218026"
+   ],
+   "letter_date": "08/16/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218026_20240816.pdf"
+  },
+  {
+   "application_number": [
+    "BL 125806"
+   ],
+   "letter_date": "06/14/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA125806_20240614.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761161"
+   ],
+   "letter_date": "04/27/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761161_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761253"
+   ],
+   "letter_date": "02/27/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761253_20260227.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218762"
+   ],
+   "letter_date": "04/17/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218762_20240417.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761403"
+   ],
+   "letter_date": "02/26/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761403_20260226.pdf"
+  },
+  {
+   "application_number": [
+    "BL 125842"
+   ],
+   "letter_date": "07/09/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA125842_20250709.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761440/Original 2",
+    "BLA 761440"
+   ],
+   "letter_date": "10/23/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761440_20251023.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218995"
+   ],
+   "letter_date": "06/20/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218995_20260620_Redacted.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 022450"
+   ],
+   "letter_date": "02/10/2010",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "022450Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210583"
+   ],
+   "letter_date": "03/22/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210583_2020_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 200655"
+   ],
+   "letter_date": "10/22/2013",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "200655_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 211363"
+   ],
+   "letter_date": "12/12/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "211363_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 201848"
+   ],
+   "letter_date": "09/12/2013",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "201848_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 213478"
+   ],
+   "letter_date": "08/13/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "213478_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 206185"
+   ],
+   "letter_date": "11/24/2014",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "206185_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 214522"
+   ],
+   "letter_date": "02/23/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "214522_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 209529"
+   ],
+   "letter_date": "08/28/2017",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "209529_2020_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 216482"
+   ],
+   "letter_date": "01/06/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "216482_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210136"
+   ],
+   "letter_date": "12/21/2018",
+   "letter_type": "TENTATIVE APPROVAL",
+   "approval_status": "Approved",
+   "file_name": "210136_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 217186"
+   ],
+   "letter_date": "06/30/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "217186Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210852"
+   ],
+   "letter_date": "11/06/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210852_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761091"
+   ],
+   "letter_date": "03/30/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761091_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 212045"
+   ],
+   "letter_date": "02/28/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "212045_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761355"
+   ],
+   "letter_date": "06/27/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761355_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 212849"
+   ],
+   "letter_date": "01/28/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "212849_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761311"
+   ],
+   "letter_date": "09/29/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761311_20230929_Redacted.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 213135"
+   ],
+   "letter_date": "03/13/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "213135_2020_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 217711"
+   ],
+   "letter_date": "08/27/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA 217711_20250827.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 213931"
+   ],
+   "letter_date": "07/28/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "213931_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 216900"
+   ],
+   "letter_date": "06/26/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA216900_20260626_Redacted.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761081"
+   ],
+   "letter_date": "04/20/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761081_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218600"
+   ],
+   "letter_date": "10/21/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218600_20241021.pdf"
+  },
+  {
+   "application_number": [
+    "BL 125706"
+   ],
+   "letter_date": "08/01/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "CRL_BLA125706_20230801.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 220138"
+   ],
+   "letter_date": "06/15/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA220138_20260615_Redacted.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761320"
+   ],
+   "letter_date": "08/27/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761320_20250827.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 220304"
+   ],
+   "letter_date": "04/23/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA220304_20260423_Redacted.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761471"
+   ],
+   "letter_date": "12/30/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761471_20251230.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 214835"
+   ],
+   "letter_date": "07/27/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "Pages from 214835Orig1s000_ORIGINAL_APPROVAL_PACKAGE.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 217294"
+   ],
+   "letter_date": "01/12/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA217294_20240112.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210583"
+   ],
+   "letter_date": "05/23/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210583_2020_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 217433"
+   ],
+   "letter_date": "07/15/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA217433_20240715.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 211970"
+   ],
+   "letter_date": "08/19/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "211970_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 219045"
+   ],
+   "letter_date": "10/21/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA219045_20241021.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 213072"
+   ],
+   "letter_date": "05/26/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "213072_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 219694"
+   ],
+   "letter_date": "10/22/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA219694_20251022.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 213426"
+   ],
+   "letter_date": "06/15/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "213426_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 220184"
+   ],
+   "letter_date": "12/22/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA220184_20251222.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 213972"
+   ],
+   "letter_date": "07/23/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "213972_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 018680/S-074"
+   ],
+   "letter_date": "12/18/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "018680-s074_OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761275"
+   ],
+   "letter_date": "05/31/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761275_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210526"
+   ],
+   "letter_date": "01/21/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210526_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761459"
+   ],
+   "letter_date": "04/22/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761459_20260422.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761187"
+   ],
+   "letter_date": "04/19/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761187_20240419.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 215749"
+   ],
+   "letter_date": "03/07/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA215749_20240307.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761266"
+   ],
+   "letter_date": "06/23/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761266_20260623_Redacted.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 217363"
+   ],
+   "letter_date": "05/15/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA217363_20260515_Redacted.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761438"
+   ],
+   "letter_date": "06/26/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761438_20260626_Redacted.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218345"
+   ],
+   "letter_date": "04/02/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218345_20250402.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 202293"
+   ],
+   "letter_date": "01/17/2012",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "CRL_NDA202293_20120117.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 214835"
+   ],
+   "letter_date": "07/15/2022",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "Pages from 214835Orig1s000_ORIGINAL_APPROVAL_PACKAGE.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 214315"
+   ],
+   "letter_date": "01/25/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA214315_20240125.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 204311"
+   ],
+   "letter_date": "08/06/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "204311_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218224"
+   ],
+   "letter_date": "03/29/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218524_20240329.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 206610"
+   ],
+   "letter_date": "06/06/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "206610_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218607"
+   ],
+   "letter_date": "06/27/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218607_20250627.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 208313"
+   ],
+   "letter_date": "05/23/2017",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "208313_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 219029"
+   ],
+   "letter_date": "05/29/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA219029_20250529.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 212097/S-012"
+   ],
+   "letter_date": "02/09/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "212097-s012_OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 021164"
+   ],
+   "letter_date": "03/15/2002",
+   "letter_type": null,
+   "approval_status": "Approved",
+   "file_name": "021164Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 213976"
+   ],
+   "letter_date": "12/17/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "213976_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 202408"
+   ],
+   "letter_date": "03/31/2014",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "202408_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 216686"
+   ],
+   "letter_date": "10/19/2022",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "216686_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210735"
+   ],
+   "letter_date": "04/26/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210735_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761073"
+   ],
+   "letter_date": "05/25/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761073_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 212304"
+   ],
+   "letter_date": "07/23/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "212304_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761198"
+   ],
+   "letter_date": "11/19/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761198_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 214520"
+   ],
+   "letter_date": "02/26/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "214520_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761225"
+   ],
+   "letter_date": "03/31/2022",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761225_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BL 125734"
+   ],
+   "letter_date": "08/18/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "CRL_BLA125734_20210818.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761212"
+   ],
+   "letter_date": "11/14/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761212_20241114.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210934"
+   ],
+   "letter_date": "12/20/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA210934_20241220.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761427/Original 2",
+    "BLA 761427"
+   ],
+   "letter_date": "12/12/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761427_20251212.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 204417"
+   ],
+   "letter_date": "09/23/2015",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "204417Orig1s000OtherActionLtr.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 205508"
+   ],
+   "letter_date": "07/28/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA205508_20250728.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 206610"
+   ],
+   "letter_date": "02/01/2017",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "206610_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218353"
+   ],
+   "letter_date": "04/25/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218353_20250425.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 206968"
+   ],
+   "letter_date": "12/22/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "206968_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218528"
+   ],
+   "letter_date": "01/25/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218528_20240125.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 209191"
+   ],
+   "letter_date": "11/03/2017",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "209191_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 220283"
+   ],
+   "letter_date": "05/29/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA220283_20260529_Redacted.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 215721"
+   ],
+   "letter_date": "01/13/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "215721_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 202049"
+   ],
+   "letter_date": "06/19/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "202049_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761184"
+   ],
+   "letter_date": "01/21/2022",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761184_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 206927/Original 1",
+    "NDA 206927"
+   ],
+   "letter_date": "05/04/2016",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "206927_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761258"
+   ],
+   "letter_date": "01/19/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761258_2025_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 208419"
+   ],
+   "letter_date": "09/26/2017",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "208419_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BL 125745"
+   ],
+   "letter_date": "01/15/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA125745_20250115.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210605"
+   ],
+   "letter_date": "08/28/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210605_2020_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761271"
+   ],
+   "letter_date": "12/05/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761271_20241205.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210864"
+   ],
+   "letter_date": "12/20/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210864_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761400"
+   ],
+   "letter_date": "08/20/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "CRL_BLA761400_20240820.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 211413"
+   ],
+   "letter_date": "10/19/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "211413_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 204569"
+   ],
+   "letter_date": "06/28/2013",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "CRL_NDA204569_20130628.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 214273"
+   ],
+   "letter_date": "05/28/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "214273_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 216586"
+   ],
+   "letter_date": "05/16/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA216586_20240516.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 214324"
+   ],
+   "letter_date": "10/15/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "214324_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 217379"
+   ],
+   "letter_date": "06/14/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA217379_20240614.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 215000"
+   ],
+   "letter_date": "04/30/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "215000_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 207987"
+   ],
+   "letter_date": "12/09/2015",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "207987_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 215179"
+   ],
+   "letter_date": "06/24/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "215179_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 209575"
+   ],
+   "letter_date": "07/20/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "209575_2020_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 216490"
+   ],
+   "letter_date": "04/28/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "216490_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 209988"
+   ],
+   "letter_date": "06/11/2018",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "209988_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761062"
+   ],
+   "letter_date": "07/13/2017",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761062_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 211413"
+   ],
+   "letter_date": "01/08/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "211413_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761127"
+   ],
+   "letter_date": "10/14/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761127_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 211746"
+   ],
+   "letter_date": "06/20/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "211746_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761147"
+   ],
+   "letter_date": "08/05/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761147_20250805.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 214012"
+   ],
+   "letter_date": "12/18/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "214012_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761461"
+   ],
+   "letter_date": "11/26/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761461_20251126.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 215192"
+   ],
+   "letter_date": "03/29/2022",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "215192_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761462"
+   ],
+   "letter_date": "10/31/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761462_20251031.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218772"
+   ],
+   "letter_date": "08/19/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "218772_2025_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 215029"
+   ],
+   "letter_date": "07/11/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA215029_20240711.pdf"
+  },
+  {
+   "application_number": [
+    "BL 125713"
+   ],
+   "letter_date": "08/03/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA125713_20200803.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 217382"
+   ],
+   "letter_date": "06/02/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA217382_20250602.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761027"
+   ],
+   "letter_date": "06/26/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761027_20250626.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 217556"
+   ],
+   "letter_date": "02/22/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA217556_20240222.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761147"
+   ],
+   "letter_date": "10/29/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761147_20241029.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218705"
+   ],
+   "letter_date": "08/07/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218705_20260807.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761152"
+   ],
+   "letter_date": "10/15/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "CRL_BLA761152_20211015.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218879"
+   ],
+   "letter_date": "01/03/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218879_20250103.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 203856"
+   ],
+   "letter_date": "05/03/2013",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "CRL_NDA203856_20130503.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 201110"
+   ],
+   "letter_date": "02/28/2011",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "201110_2020_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 215644"
+   ],
+   "letter_date": "10/25/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA215644_20241025.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 202860"
+   ],
+   "letter_date": "01/23/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "202860_2019_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218470"
+   ],
+   "letter_date": "01/30/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218470_20240130.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 204957"
+   ],
+   "letter_date": "09/28/2017",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "204957_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 201110"
+   ],
+   "letter_date": "11/23/2016",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "201110_2020_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210852"
+   ],
+   "letter_date": "05/03/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210852_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 204957"
+   ],
+   "letter_date": "03/27/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "204957_2021_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 217202"
+   ],
+   "letter_date": "05/31/2023",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "217202_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 210852"
+   ],
+   "letter_date": "11/20/2019",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "210852_2024_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761082"
+   ],
+   "letter_date": "08/02/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761082_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 211302"
+   ],
+   "letter_date": "01/28/2020",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "211302_2020_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BL 125827"
+   ],
+   "letter_date": "04/10/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA125827_20260410.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 214375"
+   ],
+   "letter_date": "10/05/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "214375_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761376"
+   ],
+   "letter_date": "04/19/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA761376_20240419.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 214759"
+   ],
+   "letter_date": "07/30/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "214759_2025_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 212271"
+   ],
+   "letter_date": "12/11/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA212271_20241211.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 216190"
+   ],
+   "letter_date": "03/29/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "216190Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218258"
+   ],
+   "letter_date": "01/23/2024",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218258_20240123.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761039"
+   ],
+   "letter_date": "06/09/2017",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761039_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 218923"
+   ],
+   "letter_date": "07/30/2025",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_NDA218923_20250730.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761148"
+   ],
+   "letter_date": "08/03/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761148_2022_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 206185"
+   ],
+   "letter_date": "12/19/2016",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "206185_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BLA 761192"
+   ],
+   "letter_date": "06/25/2021",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "761192_2023_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 208276"
+   ],
+   "letter_date": "10/07/2016",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "208276_2018_Orig1s000OtherActionLtrs.pdf"
+  },
+  {
+   "application_number": [
+    "BL 125840"
+   ],
+   "letter_date": "02/07/2026",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Unapproved",
+   "file_name": "CRL_BLA125840_20260207.pdf"
+  },
+  {
+   "application_number": [
+    "NDA 208969"
+   ],
+   "letter_date": "02/17/2017",
+   "letter_type": "COMPLETE RESPONSE",
+   "approval_status": "Approved",
+   "file_name": "208969_2023_Orig1s000OtherActionLtrs.pdf"
+  }
+ ]
+}
