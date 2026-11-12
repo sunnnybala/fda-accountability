@@ -7,7 +7,7 @@
 <meta name="description" content="Every new drug the FDA approved since 2020, and how many days each one waited beyond a 60-day review.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="291 new drugs approved since 2020. Zero within 60 days.">
-<meta property="og:description" content="How long every new drug waited at the FDA, and what the wait cost patients. Built from the FDA's own records.">
+<meta property="og:description" content="How long every new drug waited at the FDA, and how many patients were at stake while it did. Built from the FDA's own records.">
 <meta name="twitter:card" content="summary">
 <style>
 :root {
@@ -73,81 +73,40 @@ a { color: inherit; text-underline-offset: 3px; }
 }
 .masthead strong { color: var(--ink); font-weight: 700; }
 
-.hero { padding: 56px 0 28px; }
+.hero { padding: 32px 0 0; }
 h1 {
-  font: 600 clamp(36px, 6.4vw, 76px)/1.04 var(--serif);
-  letter-spacing: -.02em; margin: 0 0 24px; max-width: 18ch;
+  font: 600 clamp(30px, 4.6vw, 52px)/1.06 var(--serif);
+  letter-spacing: -.02em; margin: 0 0 14px;
 }
 h1 .mark {
   background: linear-gradient(transparent 62%, color-mix(in srgb, var(--beyond) 38%, transparent) 62%);
 }
-.lede { font-size: clamp(17px, 2vw, 20px); line-height: 1.5; color: var(--ink-2); max-width: 62ch; margin: 0; }
+.lede { font-size: clamp(16px, 1.6vw, 18px); line-height: 1.5; color: var(--ink-2); max-width: 78ch; margin: 0; }
 .lede strong { color: var(--ink); }
 
-.bench { margin: 32px 0 0; }
-.bench-label { font-size: 13px; color: var(--ink-2); margin: 0 0 8px; }
-.seg { display: inline-flex; flex-wrap: wrap; border: 1px solid var(--rule-strong); border-radius: 10px; padding: 3px; gap: 3px; background: var(--surface); }
-.seg button {
-  font: inherit; font-size: 14px; color: var(--ink-2); background: none; border: 0;
-  border-radius: 7px; padding: 8px 14px; cursor: pointer; text-align: left; line-height: 1.25;
-}
-.seg button b { display: block; color: var(--ink); font-size: 15px; }
-.seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
-.seg button[aria-pressed="true"] b { color: var(--bg); }
-.bench-note { font-size: 14px; color: var(--ink-2); margin: 10px 0 0; max-width: 72ch; }
-
-.cost { margin: 36px 0 0; background: var(--ink); color: var(--bg); border-radius: 12px; padding: 28px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px 32px; }
+.cost { margin: 22px 0 0; background: var(--ink); color: var(--bg); border-radius: 12px; padding: 18px 24px; display: flex; align-items: center; gap: 24px; }
 .cost p { margin: 0; }
-.cost .kicker { grid-column: 1 / -1; font-size: 13px; letter-spacing: .06em; text-transform: uppercase; opacity: .8; }
-.cost .big { font: 600 clamp(44px, 7vw, 76px)/1 var(--serif); letter-spacing: -.02em; }
-.cost .cap { font-size: 16px; line-height: 1.4; opacity: .9; margin-top: 8px; max-width: 30ch; }
-.cost .how { grid-column: 1 / -1; font-size: 14px; opacity: .85; border-top: 1px solid color-mix(in srgb, var(--bg) 28%, transparent); padding-top: 14px; margin-top: 8px; }
-.cost a { color: inherit; }
-.cost + .tiles { margin-top: 16px; }
-.human { margin-top: 10px; padding-left: 10px; border-left: 3px solid var(--beyond); font-size: 14px; line-height: 1.4; color: var(--ink); }
-.human b { font-weight: 650; }
+.cost .big { font: 600 clamp(46px, 6vw, 68px)/1 var(--serif); letter-spacing: -.02em; white-space: nowrap; }
+.cost .cap { font-size: 16px; line-height: 1.45; max-width: 64ch; }
+.cost .cap strong { display: block; font-size: 20px; line-height: 1.25; margin-bottom: 2px; }
+.cost a { color: inherit; white-space: nowrap; }
 .sum { margin: 0 0 12px; padding-left: 18px; color: var(--ink-2); }
 .sum li { margin-bottom: 6px; }
 .sum b { color: var(--ink); }
-.tiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--rule-strong); border: 1px solid var(--rule-strong); border-radius: 12px; overflow: hidden; margin: 36px 0 0; }
-.tile { background: var(--surface); padding: 20px; }
-.tile .label { font-size: 13px; color: var(--ink-2); margin: 0 0 6px; }
-.tile .value { font: 600 clamp(30px, 4vw, 44px)/1.05 var(--serif); letter-spacing: -.01em; margin: 0; }
-.tile .value small { font: 400 15px var(--sans); color: var(--ink-2); letter-spacing: 0; margin-left: 4px; }
-.tile .sub { font-size: 13px; color: var(--ink-3); margin: 6px 0 0; }
 
-section { padding: 48px 0 0; }
+section { padding: 28px 0 0; }
+section.about { padding-top: 56px; }
 h2 { font: 600 clamp(24px, 3vw, 32px)/1.15 var(--serif); letter-spacing: -.01em; margin: 0 0 6px; }
 .sec-note { color: var(--ink-2); margin: 0 0 20px; max-width: 72ch; font-size: 15px; }
 
-/* distribution chart */
-.chart { position: relative; background: var(--surface); border: 1px solid var(--rule); border-radius: 12px; padding: 20px 20px 12px; }
-.plot { position: relative; height: 200px; display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 2px; align-items: end; border-bottom: 1px solid var(--rule-strong); }
-.bar { position: relative; height: 100%; display: flex; align-items: flex-end; }
-.bar i { display: block; width: 100%; background: var(--beyond); border-radius: 4px 4px 0 0; min-height: 0; }
-.bar:hover i, .bar.on i { filter: brightness(.82); }
-.benchline { position: absolute; top: -6px; bottom: 0; width: 0; border-left: 2px dashed var(--ink); pointer-events: none; }
-.benchline span { position: absolute; top: 0; left: 8px; white-space: nowrap; font-size: 13px; font-weight: 600; background: var(--surface); padding: 0 4px; }
-.axis { position: relative; height: 26px; font-size: 12px; color: var(--ink-3); }
-.axis span { position: absolute; top: 6px; transform: translateX(-50%); white-space: nowrap; }
-.axis span:first-child { transform: none; }
-.axis span:last-child { transform: translateX(-100%); }
-.tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--bg); font-size: 13px; padding: 6px 9px; border-radius: 6px; white-space: nowrap; transform: translate(-50%, -100%); opacity: 0; transition: opacity .08s; z-index: 2; }
-.tip.show { opacity: 1; }
-
-/* controls */
-.controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 0 0 14px; }
-.controls input[type="search"], .controls select {
+.sec-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 20px; margin: 0 0 12px; }
+.sec-head h2 { margin: 0; }
+.sec-head .hint { font-size: 14px; color: var(--ink-2); margin: 0; flex: 1 1 auto; }
+.sec-head input[type="search"] {
   font: inherit; font-size: 15px; color: var(--ink); background: var(--surface);
   border: 1px solid var(--rule-strong); border-radius: 8px; padding: 9px 12px; min-height: 40px;
+  flex: 0 1 300px; min-width: 0;
 }
-.controls input[type="search"] { flex: 1 1 240px; min-width: 0; }
-.chips { display: flex; flex-wrap: wrap; gap: 6px; }
-.chips button { font: inherit; font-size: 14px; color: var(--ink-2); background: var(--surface); border: 1px solid var(--rule-strong); border-radius: 999px; padding: 7px 14px; min-height: 40px; cursor: pointer; }
-.chips button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
-.count { font-size: 14px; color: var(--ink-2); margin: 0 0 10px; }
-.legend { display: flex; flex-wrap: wrap; gap: 16px; font-size: 13px; color: var(--ink-2); margin: 0 0 10px; }
-.legend i { display: inline-block; width: 18px; height: 8px; border-radius: 4px; margin-right: 6px; vertical-align: 1px; }
 
 /* table */
 .tablebox { background: var(--surface); border: 1px solid var(--rule); border-radius: 12px; overflow: hidden; }
@@ -157,7 +116,7 @@ thead th button { font: inherit; letter-spacing: inherit; text-transform: inheri
 thead th[aria-sort] button { color: var(--ink); }
 thead th:not([data-sort]) { padding: 12px 14px; }
 thead th.r, td.r { text-align: right; }
-th:nth-child(1) { width: 25%; } th:nth-child(2) { width: 33%; } th:nth-child(3) { width: 15%; } th:nth-child(4) { width: 14%; } th:nth-child(5) { width: 13%; }
+th:nth-child(1) { width: 25%; } th:nth-child(2) { width: 37%; } th:nth-child(3) { width: 18%; } th:nth-child(4) { width: 20%; }
 tbody td { padding: 14px; border-bottom: 1px solid var(--rule); vertical-align: top; }
 tbody tr.row { cursor: pointer; }
 tbody tr.row:hover { background: color-mix(in srgb, var(--ink) 4%, transparent); }
@@ -168,15 +127,17 @@ tbody tr:last-child td { border-bottom: 0; }
 .tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
 .tag { font-size: 12px; color: var(--ink-2); border: 1px solid var(--rule-strong); border-radius: 999px; padding: 1px 8px; white-space: nowrap; }
 .for { color: var(--ink-2); font-size: 15px; max-width: 52ch; }
-.dates { font-size: 14px; color: var(--ink-2); white-space: nowrap; }
 .days { font-size: 15px; white-space: nowrap; }
-.track { display: flex; gap: 2px; width: 100%; max-width: 150px; height: 8px; margin: 8px 0 0 auto; }
-.track i { display: block; height: 8px; border-radius: 4px; }
-.track .w { background: var(--within); }
-.track .b { background: var(--beyond); }
-.track.over .b { border-radius: 4px 0 0 4px; -webkit-mask: linear-gradient(90deg, #000 78%, transparent); mask: linear-gradient(90deg, #000 78%, transparent); }
-.beyond { font: 600 26px/1.1 var(--serif); white-space: nowrap; }
-.beyond small { display: block; font: 400 12px var(--sans); color: var(--ink-3); margin-top: 3px; }
+.days b { font: 600 22px/1.1 var(--serif); }
+.m-only { display: none; }
+.track { width: 100%; max-width: 150px; height: 8px; margin: 8px 0 6px auto; }
+.track i { display: block; height: 8px; border-radius: 4px; background: var(--beyond); }
+.track.over i { border-radius: 4px 0 0 4px; -webkit-mask: linear-gradient(90deg, #000 78%, transparent); mask: linear-gradient(90deg, #000 78%, transparent); }
+.dates { font-size: 13px; color: var(--ink-3); white-space: nowrap; }
+.hc { font: 600 30px/1.05 var(--serif); white-space: nowrap; }
+.hc small { display: block; font: 400 13px/1.35 var(--sans); color: var(--ink-2); margin-top: 4px; white-space: normal; }
+.hc small + small { color: var(--ink-3); margin-top: 0; }
+.hc-none { font-size: 13px; color: var(--ink-3); padding-top: 6px; }
 tr.detail td { background: color-mix(in srgb, var(--ink) 3%, transparent); padding: 16px 14px 20px; }
 .detail-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 24px; font-size: 14px; }
 .detail-grid h3 { font-size: 12px; letter-spacing: .05em; text-transform: uppercase; color: var(--ink-2); margin: 0 0 4px; font-weight: 600; }
@@ -192,24 +153,28 @@ tr.detail td { background: color-mix(in srgb, var(--ink) 3%, transparent); paddi
 footer { margin: 56px 0 0; padding: 20px 0 48px; border-top: 1px solid var(--rule-strong); font-size: 13px; color: var(--ink-3); }
 
 @media (max-width: 860px) {
-  .tiles { grid-template-columns: repeat(2, 1fr); }
-  .notes, .detail-grid, .cost { grid-template-columns: 1fr; }
-  .cost { padding: 22px 20px; }
+  .notes, .detail-grid { grid-template-columns: 1fr; }
+  .cost { flex-direction: column; align-items: flex-start; gap: 8px; padding: 18px 20px; }
+  .sec-head input[type="search"] { flex: 1 1 100%; }
   thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
   table, tbody, tr, td { display: block; width: 100%; }
-  tbody tr.row { padding: 16px 16px 4px; border-bottom: 1px solid var(--rule); }
+  tbody tr.row { display: flex; flex-direction: column; padding: 16px 16px 6px; border-bottom: 1px solid var(--rule); }
   tbody tr.row td { border: 0; padding: 0 0 10px; text-align: left; }
-  tbody tr.row td.c-beyond { order: -1; }
-  tbody tr.row { display: flex; flex-direction: column; }
-  .beyond small { display: inline; margin-left: 6px; }
-  .track { margin-left: 0; width: 100%; max-width: 260px; }
+  .m-only { display: inline; }
+  .track { margin-left: 0; max-width: 260px; }
+  .hc small { display: inline; margin-left: 6px; }
+  .hc small + small { display: block; margin-left: 0; }
+  .hc-none { padding-top: 0; }
   tr.detail td { border-bottom: 1px solid var(--rule); }
-  .hero { padding-top: 36px; }
-  .plot { height: 150px; }
+  .hero { padding-top: 20px; }
+  .sec-head .hint { display: none; }
 }
 @media (max-width: 480px) {
-  .seg { display: flex; flex-direction: column; }
-  .tile { padding: 16px; }
+  .masthead { padding: 14px 0 12px; font-size: 12px; }
+  .masthead > span { display: none; }
+  .lede { font-size: 15px; }
+  .cost { margin-top: 16px; }
+  section { padding-top: 20px; }
 }
 </style>
 </head>
@@ -221,62 +186,20 @@ footer { margin: 56px 0 0; padding: 20px 0 48px; border-top: 1px solid var(--rul
   </header>
 
   <div class="hero">
-    <h1><span id="h-count"></span> new drugs approved since 2020. <span class="mark"><span id="h-within"></span> within <span id="h-bench"></span> days.</span></h1>
-    <p class="lede">The public scrutinizes the harm from approving a drug. The harm from withholding a useful one is much less visible. This page makes it visible: for every new drug, the days patients waited beyond the time a fast review takes.</p>
-
-    <div class="bench">
-      <p class="bench-label">Measure every drug against a review of</p>
-      <div class="seg" role="group" aria-label="Benchmark review time">
-        <button type="button" data-bench="60" aria-pressed="true"><b>60 days</b>the FDA's own fast-lane target</button>
-        <button type="button" data-bench="30" aria-pressed="false"><b>30 days</b>a very competent FDA</button>
-        <button type="button" data-bench="21" aria-pressed="false"><b>21 days</b>emergency pace</button>
-      </div>
-      <p class="bench-note" id="bench-note"></p>
-    </div>
+    <h1><span id="h-count"></span> new drugs approved since 2020. <span class="mark"><span id="h-within"></span> within 60 days.</span></h1>
+    <p class="lede">The public scrutinizes the harm from approving a drug. The harm from withholding a useful one is much less visible. This page counts it, against a 60-day review: the FDA's own target for its fastest lane.</p>
 
     <div class="cost" id="cost" hidden>
-      <p class="kicker">The human cost, for the <span id="c-n"></span> cancer drugs where a trial measured it</p>
-      <div><p class="big num" id="c-years"></p><p class="cap">years of life at stake while those drugs waited beyond the benchmark</p></div>
-      <div><p class="big num" id="c-patients"></p><p class="cap">patients in the US became eligible for one of them during that wait</p></div>
-      <p class="how">Patients who become eligible each year × the wait beyond the benchmark × the extra time patients lived in the trial. <a href="#table-h" id="c-link">See the sum for each drug</a>.</p>
-    </div>
-
-    <div class="tiles">
-      <div class="tile"><p class="label">Median time at the FDA</p><p class="value num"><span id="t-median"></span><small>days</small></p><p class="sub">from filing to approval</p></div>
-      <div class="tile"><p class="label">Wait beyond the benchmark</p><p class="value num"><span id="t-beyond"></span><small>days</small></p><p class="sub">median per drug</p></div>
-      <div class="tile"><p class="label">All drugs added together</p><p class="value num"><span id="t-years"></span><small>years</small></p><p class="sub">of waiting beyond the benchmark</p></div>
-      <div class="tile"><p class="label">Drugs the FDA rated priority</p><p class="value num"><span id="t-prio"></span><small>days</small></p><p class="sub">median, across <span id="t-prio-n"></span> drugs</p></div>
+      <p class="big num" id="c-patients"></p>
+      <p class="cap"><strong>patients at stake</strong>They became eligible for one of <span id="c-n"></span> cancer drugs while it waited beyond 60 days at the FDA. That is about <span class="num" id="c-years"></span> years of life. <a href="#notes-h">How this is counted</a></p>
     </div>
   </div>
 
-  <section aria-labelledby="dist-h">
-    <h2 id="dist-h">Every drug sits to the right of the line</h2>
-    <p class="sec-note">Each bar counts the drugs that spent that long at the FDA, from the day the application arrived to the day it was approved.</p>
-    <div class="chart" id="chart">
-      <div class="plot" id="plot" role="img"></div>
-      <div class="axis" id="axis"></div>
-      <div class="tip" id="tip"></div>
-    </div>
-  </section>
-
   <section aria-labelledby="table-h">
-    <h2 id="table-h">Drug by drug</h2>
-    <p class="sec-note">Select a drug to see what it is approved for, its designations and the FDA's own record.</p>
-    <div class="controls">
+    <div class="sec-head">
+      <h2 id="table-h">Drug by drug</h2>
+      <p class="hint">Select a drug to see the sum and its sources.</p>
       <input type="search" id="q" placeholder="Search a drug, disease or company" aria-label="Search a drug, disease or company">
-      <select id="year" aria-label="Approval year"></select>
-      <div class="chips" role="group" aria-label="Filter">
-        <button type="button" data-filter="all" aria-pressed="true">All</button>
-        <button type="button" data-filter="cost" aria-pressed="false" hidden>Human cost counted</button>
-        <button type="button" data-filter="priority" aria-pressed="false">Priority</button>
-        <button type="button" data-filter="orphan" aria-pressed="false">Rare disease</button>
-        <button type="button" data-filter="rejected" aria-pressed="false">Rejected first</button>
-      </div>
-    </div>
-    <p class="count" id="count" aria-live="polite"></p>
-    <div class="legend" aria-hidden="true">
-      <span><i style="background:var(--within)"></i>Benchmark review</span>
-      <span><i style="background:var(--beyond)"></i>Days beyond it</span>
     </div>
     <div class="tablebox">
       <table>
@@ -284,9 +207,8 @@ footer { margin: 56px 0 0; padding: 20px 0 48px; border-top: 1px solid var(--rul
           <tr>
             <th data-sort="name"><button type="button">Drug</button></th>
             <th>Approved for</th>
-            <th data-sort="approved"><button type="button">Filed → approved</button></th>
             <th class="r" data-sort="days"><button type="button">Days at the FDA</button></th>
-            <th class="r" data-sort="beyond"><button type="button">Days beyond</button></th>
+            <th class="r" data-sort="cost"><button type="button">Human cost</button></th>
           </tr>
         </thead>
         <tbody id="rows"></tbody>
@@ -295,13 +217,13 @@ footer { margin: 56px 0 0; padding: 20px 0 48px; border-top: 1px solid var(--rul
     </div>
   </section>
 
-  <section aria-labelledby="notes-h">
+  <section class="about" aria-labelledby="notes-h">
     <h2 id="notes-h">How this is counted</h2>
     <div class="notes" style="margin-top:16px">
       <div id="cost-notes" hidden style="grid-column:1 / -1">
         <h3>The human cost</h3>
         <ul>
-          <li><strong>Patients:</strong> the number of people in the US who become eligible for the drug each year, times the wait beyond the benchmark in years.</li>
+          <li><strong>Patients:</strong> the number of people in the US who become eligible for the drug each year, times the wait beyond 60 days, in years.</li>
           <li><strong>Years of life:</strong> those patients, times the extra time patients lived in the drug's randomised trial (median survival with the drug minus median survival without it).</li>
           <li>Every eligible patient is counted. Not all of them would have taken the drug, and the median gain stands in for the average. Each drug's row shows its numbers and where they come from.</li>
           <li>Only cancer drugs with a randomised trial that measured survival are counted so far.</li>
@@ -312,13 +234,13 @@ footer { margin: 56px 0 0; padding: 20px 0 48px; border-top: 1px solid var(--rul
         <ul>
           <li>It starts the day the FDA received the application and stops the day the drug was approved. Both dates are the FDA's own.</li>
           <li>It never pauses. Where the FDA rejected an application before approving it later, that time counts, and the drug is labelled "Rejected first". The FDA has not published every rejection letter, so some long waits carry no label.</li>
-          <li>Days beyond the benchmark are the days at the FDA minus the benchmark.</li>
+          <li>The wait the human cost counts is the days at the FDA minus 60.</li>
         </ul>
         <h3 style="margin-top:20px">The benchmark</h3>
         <ul>
-          <li><strong>60 days:</strong> the FDA's national priority voucher programme <a href="https://www.pharmexec.com/view/fda-national-priority-voucher-program" rel="noopener">targets a review of one to two months</a> after final submission, against the usual 10 to 12. Its fastest reviews so far took 44 to 61 days, counted from the day it accepted the application rather than the day it arrived.</li>
-          <li><strong>21 days:</strong> the first COVID-19 vaccine was authorised for emergency use 21 days after the request was filed.</li>
-          <li><strong>30 days:</strong> a target, not a record. What a very competent agency would aim for.</li>
+          <li>Every drug is measured against a 60-day review. The FDA's national priority voucher programme <a href="https://www.pharmexec.com/view/fda-national-priority-voucher-program" rel="noopener">targets a review of one to two months</a> after final submission, against the usual 10 to 12.</li>
+          <li>If that can be the target for those drugs, the deadline for the rest is a choice.</li>
+          <li>No drug here was approved within 60 days. The fastest took <span id="n-fastest"></span>.</li>
         </ul>
       </div>
       <div>
@@ -363,14 +285,8 @@ const DATA = /*__DATA__*/null;
   const costed = drugs.filter((d) => d.cost);
   const words = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine'];
 
-  const state = { bench: 60, sort: 'beyond', dir: -1, q: '', filter: 'all', year: 'all', open: null };
+  const state = { bench: 60, sort: 'cost', dir: -1, q: '', open: null };
   const CAP = 1095;                 // row bars run to three years
-  const BIN = 30, LAST = 1080;      // histogram: 30-day bins, last bin is 1,080+
-  const NOTES = {
-    60: 'For drugs it calls a national priority, the FDA\'s own target is a review of one to two months after submission. If that can be the target for those drugs, the deadline for the rest is a choice.',
-    30: 'What would a very competent FDA set as its deadline? Most of a review is waiting, not reading.',
-    21: 'In December 2020 the first COVID-19 vaccine was authorised 21 days after the request was filed. This is what the FDA does in an emergency.'
-  };
 
   $('built').textContent = full(meta.built);
   $('h-count').textContent = fmt(drugs.length);
@@ -380,69 +296,21 @@ const DATA = /*__DATA__*/null;
 
   /* ---------- headline numbers ---------- */
   function renderHero() {
-    const b = state.bench, days = drugs.map((d) => d.days_at_fda);
-    const within = days.filter((x) => x <= b).length;
+    const days = drugs.map((d) => d.days_at_fda);
+    const within = days.filter((x) => x <= state.bench).length;
     $('h-within').textContent = within < 10 ? words[within] : fmt(within);
-    $('h-bench').textContent = b;
-    $('bench-note').textContent = NOTES[b];
-    $('t-median').textContent = fmt(Math.round(median(days)));
-    $('t-beyond').textContent = fmt(Math.round(median(days.map((x) => Math.max(0, x - b)))));
-    $('t-years').textContent = fmt(Math.round(days.reduce((s, x) => s + Math.max(0, x - b), 0) / 365.25));
-    const pr = drugs.filter((d) => d.priority).map((d) => d.days_at_fda);
-    $('t-prio').textContent = fmt(Math.round(median(pr)));
-    $('t-prio-n').textContent = fmt(pr.length);
+    $('n-fastest').textContent = fmt(Math.min(...days));
+    $('n-uncosted').textContent = fmt(drugs.length - costed.length);
     if (costed.length) {
       const tot = costed.map(costOf).reduce((a, c) => ({ patients: a.patients + c.patients, years: a.years + c.years }), { patients: 0, years: 0 });
       $('c-n').textContent = costed.length;
       $('c-years').textContent = fmt(sig(tot.years));
       $('c-patients').textContent = fmt(sig(tot.patients));
+      $('cost').hidden = false; $('cost-notes').hidden = false;
     }
   }
 
-  /* ---------- distribution ---------- */
-  const nBins = LAST / BIN + 1;
-  const bins = new Array(nBins).fill(0);
-  drugs.forEach((d) => { bins[Math.min(nBins - 1, Math.floor(d.days_at_fda / BIN))]++; });
-  const maxBin = Math.max(...bins);
-  function renderChart() {
-    const plot = $('plot'), axis = $('axis'), tip = $('tip');
-    plot.textContent = ''; axis.textContent = '';
-    plot.setAttribute('aria-label', 'Histogram of days at the FDA for ' + drugs.length + ' drugs. None were approved within ' + state.bench + ' days. The median is ' + Math.round(median(drugs.map((d) => d.days_at_fda))) + ' days.');
-    bins.forEach((n, i) => {
-      const bar = el('div', 'bar'), fill = el('i');
-      fill.style.height = n ? Math.max(2, (n / maxBin) * 100) + '%' : '0';
-      bar.appendChild(fill);
-      const label = i === nBins - 1 ? fmt(LAST) + ' days or more' : fmt(i * BIN) + ' to ' + fmt(i * BIN + BIN - 1) + ' days';
-      const show = () => {
-        const pr = plot.getBoundingClientRect(), br = bar.getBoundingClientRect(), cr = $('chart').getBoundingClientRect();
-        tip.textContent = label + ': ' + n + (n === 1 ? ' drug' : ' drugs');
-        const x = Math.min(Math.max(br.left + br.width / 2 - cr.left, 90), cr.width - 90);
-        tip.style.left = x + 'px';
-        tip.style.top = (pr.top - cr.top + (1 - (n / maxBin)) * pr.height - 8) + 'px';
-        tip.classList.add('show'); bar.classList.add('on');
-      };
-      const hide = () => { tip.classList.remove('show'); bar.classList.remove('on'); };
-      bar.addEventListener('pointerenter', show);
-      bar.addEventListener('pointerleave', hide);
-      bar.addEventListener('click', show);
-      plot.appendChild(bar);
-    });
-    const line = el('div', 'benchline');
-    line.style.left = (state.bench / (nBins * BIN)) * 100 + '%';
-    line.appendChild(el('span', null, state.bench + '-day review'));
-    plot.appendChild(line);
-    [[0, '0'], [365, '1 year'], [730, '2 years'], [LAST, '3 years or more']].forEach(([v, t]) => {
-      const s = el('span', null, t);
-      s.style.left = (v === LAST ? 100 : (v / (nBins * BIN)) * 100) + '%';
-      axis.appendChild(s);
-    });
-  }
-
   /* ---------- table ---------- */
-  const years = [...new Set(drugs.map((d) => d.approved.slice(0, 4)))].sort().reverse();
-  const yearSel = $('year');
-  yearSel.appendChild(new Option('All years', 'all'));
-  years.forEach((y) => yearSel.appendChild(new Option('Approved ' + y, y)));
   const hay = new Map(drugs.map((d) => [d.id, [d.name, d.ingredient, d.company, d.approved_use].join(' ').toLowerCase()]));
 
   function rejectedLabel(d) {
@@ -452,17 +320,14 @@ const DATA = /*__DATA__*/null;
 
   function visible() {
     const q = state.q.trim().toLowerCase();
-    const list = drugs.filter((d) =>
-      (state.year === 'all' || d.approved.startsWith(state.year)) &&
-      (state.filter === 'all' || (state.filter === 'cost' && d.cost) || (state.filter === 'priority' && d.priority) || (state.filter === 'orphan' && d.orphan) || (state.filter === 'rejected' && d.rejection_letters.length)) &&
-      (!q || hay.get(d.id).includes(q)));
-    const key = { name: (d) => d.name.toLowerCase(), approved: (d) => d.approved, days: (d) => d.days_at_fda, beyond: (d) => d.days_at_fda, cost: (d) => (costOf(d) || { years: -1 }).years }[state.sort];
-    list.sort((a, b) => { const x = key(a), y = key(b); return (x < y ? -1 : x > y ? 1 : 0) * state.dir || a.name.localeCompare(b.name); });
+    const list = drugs.filter((d) => !q || hay.get(d.id).includes(q));
+    const key = { name: (d) => d.name.toLowerCase(), days: (d) => d.days_at_fda, cost: (d) => (costOf(d) || { patients: -1 }).patients }[state.sort];
+    list.sort((a, b) => { const x = key(a), y = key(b); return (x < y ? -1 : x > y ? 1 : 0) * state.dir || b.days_at_fda - a.days_at_fda || a.name.localeCompare(b.name); });
     return list;
   }
 
   function detailRow(d) {
-    const tr = el('tr', 'detail'), td = el('td'); td.colSpan = 5; tr.appendChild(td);
+    const tr = el('tr', 'detail'), td = el('td'); td.colSpan = 4; tr.appendChild(td);
     const grid = el('div', 'detail-grid'), a = el('div'), b = el('div');
     const c = d.cost, k = costOf(d);
     if (c) {
@@ -505,20 +370,12 @@ const DATA = /*__DATA__*/null;
   }
 
   function renderTable() {
-    const list = visible(), body = $('rows'), b = state.bench;
+    const list = visible(), body = $('rows');
     body.textContent = '';
     $('empty').hidden = list.length > 0;
-    const yrs = list.reduce((s, d) => s + Math.max(0, d.days_at_fda - b), 0) / 365.25;
-    $('count').textContent = list.length === drugs.length
-      ? fmt(list.length) + ' drugs'
-      : fmt(list.length) + ' of ' + fmt(drugs.length) + ' drugs · ' + (state.filter === 'cost'
-          ? 'about ' + fmt(sig(list.reduce((s, d) => s + (costOf(d) || { years: 0 }).years, 0))) + ' years of life at stake'
-          : fmt(Math.round(yrs)) + ' years beyond the benchmark, added together');
     const frag = document.createDocumentFragment();
     list.forEach((d) => {
       const tr = el('tr', 'row'); tr.id = d.id;
-      const beyond = Math.max(0, d.days_at_fda - b);
-
       const c1 = el('td'), nm = el('div', 'drug'), btn = el('button', null, d.name);
       btn.type = 'button'; btn.setAttribute('aria-expanded', state.open === d.id ? 'true' : 'false');
       nm.appendChild(btn); c1.appendChild(nm);
@@ -530,27 +387,28 @@ const DATA = /*__DATA__*/null;
       if (tags.children.length) c1.appendChild(tags);
 
       const c2 = el('td'); c2.appendChild(el('div', 'for', d.approved_for.charAt(0).toUpperCase() + d.approved_for.slice(1)));
-      const k = costOf(d);
+
+      const c3 = el('td', 'r'), dd = el('div', 'days num');
+      dd.appendChild(el('b', null, fmt(d.days_at_fda)));
+      dd.appendChild(document.createTextNode(' days'));
+      dd.appendChild(el('span', 'm-only', ' at the FDA'));
+      c3.appendChild(dd);
+      const over = d.days_at_fda > CAP;
+      const track = el('div', 'track' + (over ? ' over' : '')), bar = el('i');
+      bar.style.width = (Math.min(d.days_at_fda, CAP) / CAP) * 100 + '%';
+      track.appendChild(bar); c3.appendChild(track);
+      c3.appendChild(el('div', 'dates num', mon(d.received) + ' → ' + mon(d.approved)));
+
+      const c4 = el('td', 'r'), k = costOf(d);
       if (k) {
-        const h = el('div', 'human');
-        h.appendChild(el('b', null, 'About ' + fmt(sig(k.years)) + ' years of life at stake.'));
-        h.appendChild(document.createTextNode(' ' + fmt(sig(k.patients)) + ' patients became eligible during the wait beyond the benchmark.'));
-        c2.appendChild(h);
+        const hc = el('div', 'hc num', fmt(sig(k.patients)));
+        hc.appendChild(el('small', null, 'patients at stake'));
+        c4.appendChild(hc);
+      } else {
+        c4.appendChild(el('div', 'hc-none', 'Not counted yet'));
       }
-      const c3 = el('td'); c3.appendChild(el('div', 'dates num', mon(d.received) + ' → ' + mon(d.approved)));
 
-      const c4 = el('td', 'r'); c4.appendChild(el('div', 'days num', fmt(d.days_at_fda) + ' days'));
-      const over = d.days_at_fda > CAP, shown = Math.min(d.days_at_fda, CAP);
-      const track = el('div', 'track' + (over ? ' over' : '')), w = el('i', 'w'), r = el('i', 'b');
-      w.style.width = (Math.min(b, shown) / CAP) * 100 + '%';
-      r.style.width = (Math.max(0, shown - b) / CAP) * 100 + '%';
-      track.appendChild(w); track.appendChild(r); c4.appendChild(track);
-
-      const c5 = el('td', 'r c-beyond'), big = el('div', 'beyond num', '+' + fmt(beyond));
-      big.appendChild(el('small', null, beyond >= 548 ? (beyond / 365.25).toFixed(1) + ' years' : 'days'));
-      c5.appendChild(big);
-
-      [c1, c2, c3, c4, c5].forEach((c) => tr.appendChild(c));
+      [c1, c2, c3, c4].forEach((c) => tr.appendChild(c));
       tr.addEventListener('click', (e) => { if (e.target.closest('a')) return; state.open = state.open === d.id ? null : d.id; renderTable(); });
       frag.appendChild(tr);
       if (state.open === d.id) frag.appendChild(detailRow(d));
@@ -565,45 +423,23 @@ const DATA = /*__DATA__*/null;
   }
 
   /* ---------- events ---------- */
-  document.querySelectorAll('[data-bench]').forEach((btn) => btn.addEventListener('click', () => {
-    state.bench = +btn.dataset.bench;
-    document.querySelectorAll('[data-bench]').forEach((x) => x.setAttribute('aria-pressed', x === btn ? 'true' : 'false'));
-    renderHero(); renderChart(); renderTable();
-  }));
-  function setFilter(f) {
-    const btn = document.querySelector('[data-filter="' + f + '"]');
-    state.filter = f;
-    if (f === 'cost') { state.sort = 'cost'; state.dir = -1; } else if (state.sort === 'cost') { state.sort = 'beyond'; state.dir = -1; }
-    document.querySelectorAll('[data-filter]').forEach((x) => x.setAttribute('aria-pressed', x === btn ? 'true' : 'false'));
-    renderTable();
-  }
-  if (costed.length) {
-    $('cost').hidden = false; $('cost-notes').hidden = false;
-    document.querySelector('[data-filter="cost"]').hidden = false;
-    $('c-link').addEventListener('click', () => setFilter('cost'));
-  }
-  $('n-uncosted').textContent = fmt(drugs.length - costed.length);
-  document.querySelectorAll('[data-filter]').forEach((btn) => btn.addEventListener('click', () => setFilter(btn.dataset.filter)));
   document.querySelectorAll('thead th[data-sort]').forEach((th) => th.addEventListener('click', () => {
     const k = th.dataset.sort;
     if (state.sort === k) state.dir = -state.dir; else { state.sort = k; state.dir = k === 'name' ? 1 : -1; }
     renderTable();
   }));
   $('q').addEventListener('input', (e) => { state.q = e.target.value; renderTable(); });
-  yearSel.addEventListener('change', () => { state.year = yearSel.value; renderTable(); });
 
   function fromHash() {
     const id = decodeURIComponent(location.hash.slice(1));
     if (!id || !drugs.some((d) => d.id === id)) return;
-    Object.assign(state, { q: '', filter: 'all', year: 'all', open: id });
-    $('q').value = ''; yearSel.value = 'all';
-    document.querySelectorAll('[data-filter]').forEach((x) => x.setAttribute('aria-pressed', x.dataset.filter === 'all' ? 'true' : 'false'));
+    state.q = ''; state.open = id; $('q').value = '';
     renderTable();
     const row = document.getElementById(id); if (row) row.scrollIntoView({ block: 'center' });
   }
   window.addEventListener('hashchange', fromHash);
 
-  renderHero(); renderChart(); renderTable(); fromHash();
+  renderHero(); renderTable(); fromHash();
 })();
 </script>
 </body>

@@ -17,24 +17,22 @@ For each drug:
 | **Filed** | The day the FDA received the company's application. |
 | **Approved** | The day the FDA approved the drug. |
 | **Days at the FDA** | The days between those two dates. The clock never pauses. |
-| **Days beyond** | Days at the FDA minus the benchmark. This is the wait the dashboard counts. |
+| **Human cost** | Patients at stake: people in the US who became eligible for the drug during the wait beyond 60 days. Counted for 12 cancer drugs so far; the rest say "Not counted yet". |
 | **Rejected first** | The FDA has published a rejection letter for this application dated between filing and approval. The time after a rejection still counts. |
 | **Priority, Rare disease** | Designations the FDA itself gave the drug. Priority means the FDA judged it a significant improvement for a serious condition. |
 
-For 12 cancer drugs it also shows the human cost:
+The human cost has two parts:
 
 | Number | What it means |
 |---|---|
 | **Patients** | People in the US who became eligible for the drug during the days beyond the benchmark. |
 | **Years of life at stake** | Those patients, times the extra time patients lived on the drug in its randomised trial. |
 
+The list shows patients at stake and opens sorted by that number, largest first. Select a drug to see its sum, step by step, including the years of life, with the source for each number.
+
 ### The benchmark
 
-Every drug is measured against a fast review instead of the FDA's usual deadline. You can switch between three:
-
-- **60 days.** The FDA's national priority voucher programme targets a review of one to two months after submission, against the usual 10 to 12. If that can be the target for those drugs, the deadline for the rest is a choice.
-- **30 days.** A target, not a record. What a very competent agency would aim for.
-- **21 days.** In December 2020 the first COVID-19 vaccine was authorised for emergency use 21 days after the request was filed.
+Every drug is measured against a 60-day review instead of the FDA's usual deadline. The FDA's national priority voucher programme targets a review of one to two months after submission, against the usual 10 to 12. If that can be the target for those drugs, the deadline for the rest is a choice.
 
 No drug in the data was approved within 60 days. The fastest took 61.
 
