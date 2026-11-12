@@ -17,7 +17,8 @@ For each drug:
 | **Filed** | The day the FDA received the company's application. |
 | **Approved** | The day the FDA approved the drug. |
 | **Days at the FDA** | The days between those two dates. The clock never pauses. |
-| **Human cost** | Patients at stake: people in the US who became eligible for the drug during the wait beyond 60 days. Counted for 12 cancer drugs so far; the rest say "Not counted yet". |
+| **More days than the FDA needed** | Days at the FDA minus 60. This is the wait the dashboard counts. |
+| **Human cost** | Patients harmed: people in the US who became eligible for the drug during the wait beyond 60 days. Counted for 12 cancer drugs so far; the rest say "Not counted yet". |
 | **Rejected first** | The FDA has published a rejection letter for this application dated between filing and approval. The time after a rejection still counts. |
 | **Priority, Rare disease** | Designations the FDA itself gave the drug. Priority means the FDA judged it a significant improvement for a serious condition. |
 
@@ -28,7 +29,7 @@ The human cost has two parts:
 | **Patients** | People in the US who became eligible for the drug during the days beyond the benchmark. |
 | **Years of life at stake** | Those patients, times the extra time patients lived on the drug in its randomised trial. |
 
-The list shows patients at stake and opens sorted by that number, largest first. Select a drug to see its sum, step by step, including the years of life, with the source for each number.
+The list shows patients harmed and opens sorted by that number, largest first. Select a drug to see its sum, step by step, including the years of life, with the source for each number.
 
 ### The benchmark
 
@@ -86,7 +87,7 @@ Example, Vanflyta for acute myeloid leukemia, at the 60-day benchmark:
 
 What this assumes:
 
-- Every eligible patient is counted. Not all of them would have taken the drug. That is why the page says "at stake".
+- Every eligible patient is counted. Not all of them would have taken the drug.
 - The median gain in the trial stands in for the average gain.
 - The trial result holds for patients outside the trial.
 

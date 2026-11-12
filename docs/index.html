@@ -7,7 +7,7 @@
 <meta name="description" content="Every new drug the FDA approved since 2020, and how many days each one waited beyond a 60-day review.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="291 new drugs approved since 2020. Zero within 60 days.">
-<meta property="og:description" content="How long every new drug waited at the FDA, and how many patients were at stake while it did. Built from the FDA's own records.">
+<meta property="og:description" content="How long every new drug waited at the FDA, and how many patients were harmed while it did. Built from the FDA's own records.">
 <meta name="twitter:card" content="summary">
 <style>
 :root {
@@ -116,7 +116,7 @@ thead th button { font: inherit; letter-spacing: inherit; text-transform: inheri
 thead th[aria-sort] button { color: var(--ink); }
 thead th:not([data-sort]) { padding: 12px 14px; }
 thead th.r, td.r { text-align: right; }
-th:nth-child(1) { width: 25%; } th:nth-child(2) { width: 37%; } th:nth-child(3) { width: 18%; } th:nth-child(4) { width: 20%; }
+th:nth-child(1) { width: 25%; } th:nth-child(2) { width: 34%; } th:nth-child(3) { width: 24%; } th:nth-child(4) { width: 17%; }
 tbody td { padding: 14px; border-bottom: 1px solid var(--rule); vertical-align: top; }
 tbody tr.row { cursor: pointer; }
 tbody tr.row:hover { background: color-mix(in srgb, var(--ink) 4%, transparent); }
@@ -127,13 +127,13 @@ tbody tr:last-child td { border-bottom: 0; }
 .tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
 .tag { font-size: 12px; color: var(--ink-2); border: 1px solid var(--rule-strong); border-radius: 999px; padding: 1px 8px; white-space: nowrap; }
 .for { color: var(--ink-2); font-size: 15px; max-width: 52ch; }
-.days { font-size: 15px; white-space: nowrap; }
-.days b { font: 600 22px/1.1 var(--serif); }
-.m-only { display: none; }
+.days b { display: block; font: 600 30px/1.05 var(--serif); }
+.days small { display: block; font: 400 13px/1.35 var(--sans); color: var(--ink-2); margin-top: 4px; white-space: nowrap; }
 .track { width: 100%; max-width: 150px; height: 8px; margin: 8px 0 6px auto; }
-.track i { display: block; height: 8px; border-radius: 4px; background: var(--beyond); }
+.track i { display: block; height: 8px; border-radius: 4px; background: var(--beyond); margin-left: auto; }
 .track.over i { border-radius: 4px 0 0 4px; -webkit-mask: linear-gradient(90deg, #000 78%, transparent); mask: linear-gradient(90deg, #000 78%, transparent); }
-.dates { font-size: 13px; color: var(--ink-3); white-space: nowrap; }
+.dates { font-size: 12px; line-height: 1.45; color: var(--ink-3); }
+.dates span { display: block; white-space: nowrap; }
 .hc { font: 600 30px/1.05 var(--serif); white-space: nowrap; }
 .hc small { display: block; font: 400 13px/1.35 var(--sans); color: var(--ink-2); margin-top: 4px; white-space: normal; }
 .hc small + small { color: var(--ink-3); margin-top: 0; }
@@ -160,8 +160,12 @@ footer { margin: 56px 0 0; padding: 20px 0 48px; border-top: 1px solid var(--rul
   table, tbody, tr, td { display: block; width: 100%; }
   tbody tr.row { display: flex; flex-direction: column; padding: 16px 16px 6px; border-bottom: 1px solid var(--rule); }
   tbody tr.row td { border: 0; padding: 0 0 10px; text-align: left; }
-  .m-only { display: inline; }
+  .days b { display: inline; }
+  .days small { display: inline; margin-left: 6px; }
+  .dates span { display: inline; }
+  .dates span + span::before { content: ' · '; }
   .track { margin-left: 0; max-width: 260px; }
+  .track i { margin-left: 0; }
   .hc small { display: inline; margin-left: 6px; }
   .hc small + small { display: block; margin-left: 0; }
   .hc-none { padding-top: 0; }
@@ -191,7 +195,7 @@ footer { margin: 56px 0 0; padding: 20px 0 48px; border-top: 1px solid var(--rul
 
     <div class="cost" id="cost" hidden>
       <p class="big num" id="c-patients"></p>
-      <p class="cap"><strong>patients at stake</strong>They became eligible for one of <span id="c-n"></span> cancer drugs while it waited beyond 60 days at the FDA. That is about <span class="num" id="c-years"></span> years of life. <a href="#notes-h">How this is counted</a></p>
+      <p class="cap"><strong>patients harmed</strong>They became eligible for one of <span id="c-n"></span> cancer drugs while it waited beyond 60 days at the FDA. That is about <span class="num" id="c-years"></span> years of life. <a href="#notes-h">How this is counted</a></p>
     </div>
   </div>
 
@@ -207,7 +211,7 @@ footer { margin: 56px 0 0; padding: 20px 0 48px; border-top: 1px solid var(--rul
           <tr>
             <th data-sort="name"><button type="button">Drug</button></th>
             <th>Approved for</th>
-            <th class="r" data-sort="days"><button type="button">Days at the FDA</button></th>
+            <th class="r" data-sort="days"><button type="button">Extra days</button></th>
             <th class="r" data-sort="cost"><button type="button">Human cost</button></th>
           </tr>
         </thead>
@@ -388,21 +392,24 @@ const DATA = {"meta":{"built":"2026-11-12","first_year":2020,"last_approval":"20
 
       const c2 = el('td'); c2.appendChild(el('div', 'for', d.approved_for.charAt(0).toUpperCase() + d.approved_for.slice(1)));
 
+      const extra = Math.max(0, d.days_at_fda - state.bench);
       const c3 = el('td', 'r'), dd = el('div', 'days num');
-      dd.appendChild(el('b', null, fmt(d.days_at_fda)));
-      dd.appendChild(document.createTextNode(' days'));
-      dd.appendChild(el('span', 'm-only', ' at the FDA'));
+      dd.appendChild(el('b', null, fmt(extra)));
+      dd.appendChild(el('small', null, (extra === 1 ? 'more day' : 'more days') + ' than the FDA needed'));
       c3.appendChild(dd);
-      const over = d.days_at_fda > CAP;
+      const over = extra > CAP;
       const track = el('div', 'track' + (over ? ' over' : '')), bar = el('i');
-      bar.style.width = (Math.min(d.days_at_fda, CAP) / CAP) * 100 + '%';
+      bar.style.width = (Math.min(extra, CAP) / CAP) * 100 + '%';
       track.appendChild(bar); c3.appendChild(track);
-      c3.appendChild(el('div', 'dates num', mon(d.received) + ' → ' + mon(d.approved)));
+      const dt = el('div', 'dates num');
+      dt.appendChild(el('span', null, fmt(d.days_at_fda) + ' days in all'));
+      dt.appendChild(el('span', null, mon(d.received) + ' → ' + mon(d.approved)));
+      c3.appendChild(dt);
 
       const c4 = el('td', 'r'), k = costOf(d);
       if (k) {
         const hc = el('div', 'hc num', fmt(sig(k.patients)));
-        hc.appendChild(el('small', null, 'patients at stake'));
+        hc.appendChild(el('small', null, 'patients harmed'));
         c4.appendChild(hc);
       } else {
         c4.appendChild(el('div', 'hc-none', 'Not counted yet'));
